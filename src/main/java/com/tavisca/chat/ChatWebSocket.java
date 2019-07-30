@@ -11,7 +11,7 @@ import java.io.IOException;
 public class ChatWebSocket {
     private ChatHelper chatHelper;
 
-    ChatWebSocket() {
+    public ChatWebSocket() {
         chatHelper = new ChatHelper();
     }
 
