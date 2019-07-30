@@ -19,7 +19,7 @@ public class ChatHelper {
             Session receiverSession = sessionHashMap.get(receiverId);
 
             try {
-                receiverSession.getBasicRemote().sendText("From " + senderId + " Message is" + messageToSend);
+                receiverSession.getBasicRemote().sendText("From " + senderId + " Message is " + messageToSend);
             } catch (IOException e) {
                 e.printStackTrace();
             }
